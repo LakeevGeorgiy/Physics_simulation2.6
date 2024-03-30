@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание после лекции</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <h1>Затухающие колебания в LCR контуре.</h1>
+    <div>
+        <label>Индуктивность, Гн</label> 
+        <input class="input input-1" type="text" id="inductance_id">
+    </div>
+    <div>
+        <label>Сопротивление, Ом</label>
+        <input class="input input-2" type="text" id="resistence_id" />
+    </div>
+    <div>
+        <label>Ёмкость конденсатора, Ф</label>
+        <input class="input input-3" type="text" id="capacitor_id"/>
+    </div>
+    <div>
+        <label>Изначальный заряд, Кл</label>
+        <input class="input input-4" type="text" id="charge_id"/>
+    </div>
+    <div>
+        <button id="button_id">Построить графики</button>
+    </div>
+    <div id="tester"></div>
+
+    <script src="https://cdn.plot.ly/plotly-2.29.1.min.js" charset="utf-8"></script>
+    <script src="main.js"></script>
+</body>
+</html>
